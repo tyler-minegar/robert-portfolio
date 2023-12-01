@@ -9,6 +9,7 @@
 
 .contact-heading-div {
   display: flex;
+  min-width: 1000px;
 }
 
 .blog-heading-div {

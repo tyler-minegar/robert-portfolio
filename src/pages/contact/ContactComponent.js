@@ -26,13 +26,6 @@ function Contact(props) {
       <div className="basic-contact">
         <Fade bottom duration={1000} distance="40px">
           <div className="contact-heading-div">
-            <div className="contact-heading-img-div">
-              <img
-                className="profile-pic"
-                src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
-                alt=""
-              />
-            </div>
             <div className="contact-heading-text-div">
               <h1
                 className="contact-heading-text"
@@ -62,7 +55,7 @@ function Contact(props) {
           <div>
             <InlineWidget
               styles={{ overflow: "hidden", height: 900 }}
-              url="https://calendly.com/andrew-scott-visitskyworld"
+              url="https://calendly.com/roberthilse89"
               pageSettings={{ hideGdprBanner: true }}
             />
           </div>

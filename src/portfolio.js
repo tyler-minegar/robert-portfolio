@@ -9,24 +9,23 @@ const settings = {
 
 //Home Page
 const greeting = {
-  title: "Hello 👋.",
-  title2: "Andrew",
-  logo_name: "Andrew Scott",
-  nickname: "visitskyworld",
-  full_name: "Andrew Scott",
+  title: "Hello, sunshine! 🌞.",
+  title2: "Robert",
+  logo_name: "Robert Hilse",
+  nickname: "bluesky",
+  full_name: "Robert Hiles",
   subTitle:
-    "Full Stack Engineer, React expert⚛️, Blockchain & AI/ML Engineer.🔥 And I ❤️ playing the guitar!",
+    "Full Stack Engineer, React Expert ⚛️, Python/Django 🐍🏴‍☠️ | Enthusiastic Climber 🧗‍♂️",
   funFact: "I like spaghetti🍝, but hate spaghetti code",
   resumeLink:
-    "https://drive.google.com/file/d/1RWLOgRoslnWXJtSCit0r_i9rII7D-zxX/view?usp=sharing",
-  mail: "mailto:visitskyworld@gmail.com",
+    "https://drive.google.com/file/d/1vA22qhuEgH3S5phynfcMnlzEYg5Kt8a4/view?usp=sharing",
+  mail: "mailto:robertjosephhilse@outlook.com",
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/visitskyworld",
-  linkedin: "https://www.linkedin.com/in/andrew-scott-visitskyworld/",
-  gmail: "visitskyworld@gmail.com",
+  linkedin: "https://www.linkedin.com/in/roberthilse89/",
+  gmail: "robertjosephhilse@outlook.com",
   discord: "https://discord.com/users/929161993011748864",
   telegram: "https://t.me/visit_skyworld",
 };
@@ -281,18 +280,6 @@ const skills = {
       ],
     },
     {
-      title: "Blockchain development",
-      fileName: "BlockchainImg",
-      skills: [
-        "⚡ Experience working on NFT marketplace and minting page",
-        "⚡ Experience working on Decenteralized Finance and Leverage Protocol",
-        "⚡ Experience working on ethereum compatible chain",
-        "⚡ Experience working on Cosmos SDK and chains",
-        "⚡ Experience participating in DAO",
-      ],
-      softwareSkills: [],
-    },
-    {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
@@ -337,33 +324,33 @@ const skills = {
 const degrees = {
   degrees: [
     {
-      title: "University of British Columbia",
+      title: "Boise State University",
       subtitle: "Bachelor in Computer Science",
-      logo_path: "ubc.png",
+      logo_path: "boisestate-log.svg",
       alt_name: "UBC",
-      duration: "2011 - 2014",
+      duration: "2c011 - 2015",
       descriptions: [
         "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
         "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
         "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
       ],
-      website_link: "https://www.ubc.ca/",
+      website_link: "https://www.boisestate.edu/",
     },
   ],
 };
 
 const certifications = {
   certifications: [
-    {
-      title: "Triplebyte Certificate",
-      subtitle: "Triplebypte",
-      logo_path: "triplebyte.png",
-      certificate_link:
-        "https://triplebyte.com/tb/andrew-scott-2d2jjdh/certificate",
-      alt_name: "Triplebyte",
-      // color_code: "#2AAFED",
-      color_code: "#fff",
-    },
+    // {
+    //   title: "Triplebyte Certificate",
+    //   subtitle: "Triplebypte",
+    //   logo_path: "triplebyte.png",
+    //   certificate_link:
+    //     "https://triplebyte.com/tb/andrew-scott-2d2jjdh/certificate",
+    //   alt_name: "Triplebyte",
+    //   // color_code: "#2AAFED",
+    //   color_code: "#fff",
+    // },
     // {
     //   title: "M0001: MongoDB Basics",
     //   subtitle: "MongoDB University",
@@ -398,144 +385,93 @@ const experience = {
       title: "Work Experience",
       experiences: [
         {
-          title: "Senior Fullstack Engineer",
-          company: "Create",
-          company_url: "https://create.xyz/",
-          logo_path: "create.jfif",
-          duration: "2022.05 - PRESENT",
+          title: "Senior Software Engineer",
+          company: "Silicon Mint",
+          company_url: "https://siliconmint.com/",
+          logo_path: "resultid.png",
+          duration: "MAR 2022 - PRESENT",
           location: "Remote",
           description: `
-          - Developed multiple enterprise grade full-stack web applications for Create’s customers, and internal apps.
-          - Participated in Create’s code generation AI agent development (AI-powered dev teams that deliver your next web app in just minutes.) using OpenAI’s GPT via Langchain.
-          - Worked across a full stack, building various features and products, including content generation using LLMs, infrastructure and database architecture, along with web apps.
-          - Ensured application performance, uptime, and scale, and maintain high standards for code quality and application design.
-          - Assessed and reviewed all pull requests created by other teammates to ensure the quality and accuracy of the code.
-          - Integrated enhancements into web design to improve user stickiness, smooth functionality, and boost load times.
-          - Contributed to the internal team by authoring two NPM packages to implement custom Google Analytics and Facebook tags within our applications.`,
+          [React, Next, Python, Node.js, Nest, TypeScript, GraphQL, AWS, Docker, CI/CD, Algorand] 
+          • Joined team projects for building customer-facing web applications and MVPs (React / SCSS / Express / GraphQL), increased monthly users to 2M on average.
+          • Designed and implemented RESTful APIs using Python, allowing seamless communication between frontend interfaces and backend systems for data retrieval and manipulation.
+          • Collaborated with frontend developers to design and develop API endpoints, ensuring effective communication and data exchange between frontend and backend components.
+          • Engineered multiple web applications leveraging Docker containerization and AWS infrastructure, reduced app deployment time by 60%.
+          • Familiarized with professional workflows involving CI/CD, clouding platforms, through commits and code reviewing.
+          • Leveraged Redis to cache hot-queried results to improve data fetching time, increasing customer satisfaction by 22% 
+          • Integrated My Algo wallet using Algorand SDK
+          • Utilized AWS Amplify and GraphQL subscription to build a real-time messaging platform that reduced response time by 50% and increased user engagement by 40%`,
           color: "#0071C5",
         },
         {
-          title: "Fullstack Engineer",
-          company: "Dework",
-          company_url: "https://dework.xyz/",
-          logo_path: "dework.png",
-          duration: "2022.01 - 2022.11",
+          title: "Senior Full-Stack Engineer",
+          company: "SAM Labs",
+          company_url: "https://www.samlabs.com/",
+          logo_path: "strainbrain.png",
+          duration: "NOV 2020 - FEB 2022",
           location: "Remote",
           description: `
-          -	Followed SDLC best practices within Agile environment to produce rapid iterations.
-          -	Assessed and reviewed all pull requests created by other teammates to ensure the quality and accuracy of the code.
-          -	I have been responsible for building both the frontend and backend for the web application, the Solidity smart contracts, as well as oversight onto technical decisions for the project.
-          -	Integrated enhancements into web design to improve user stickiness, smooth functionality, and boost load times.
-          -	Assisted backend developers with troubleshooting and problem solving.
-          -	Contributed to the internal team by authoring two NPM packages to implement custom Google Analytics and Facebook tags within our applications.`,
+          [Node, Express, Python, TypeScript, React, React Context, MobX, MySQL, Prisma, SCSS, Firebase, GraphQL, AWS S3 / RDS / DynamoDB / AppSync]
+          • Architected and build REST API endpoints and UI for the lesson content hub using Express.js, Prisma, React and TypeScript.
+          • Integrated third-party APIs and services into Python-based backend systems, enabling seamless integration with external platforms and expanding application functionality.
+          • Designed lesson builder components using React.js, React Context, SCSS and MobX increasing 30% website users.
+          • Worked as a cross-functional developer in a 7 members team following the agile principle and actively participated in important meetings for planning and decision making.
+          • Updated the API services to use GraphQL and replaced Prisma calls with AWS GraphQL AppSync.`,
           color: "#0071C5",
         },
         {
           title: "Senior Frontend Engineer",
-          company: "Shapeshift",
-          company_url: "https://shapeshift.com/",
-          logo_path: "shapeshift.jpg",
-          duration: "2020.11 - 2021.12",
+          company: "Resultid",
+          company_url: "https://www.resultid.ai",
+          logo_path: "visitorscoverage.jfif",
+          duration: "AUG 2017 – SEP 2020",
           location: "Remote",
           description: `
-          -	Collaborated with engineering team to review application requirements, plan implementation details and estimate delivery timelines.
-          -	Brought in shipping confidence for the app and improved our deployment pipeline by implementing a testing harness in Jest and Enzyme covering over 75% of client code, configuring linting with ESLint and formatting with Prettier for overall code quality.
-          -	Worked on Web3 integration using ethers.js and web3.js
-          -	Created mobile applications based on React, integrating Facebook's best practices for interface design.
-          -	Constructed integration libraries to interface with servers and APIs.
+          [Python, Flask, Angular, React, Reduxjs toolkit, TypeScript, Tailwind CSS, Highcharts, Vue3, Quasar, AWS Cognito, S3]
+          • Translated over 3 designs into responsive pixel perfect UI using React, Angular, TypeScript and Tailwind CSS raised 1000+ user visits. 
+          • Released chart components to show the revenue information of businesses using React and Highcharts
+          • Deployed the frontend application to AWS S3 as a static website.
+          • Established login feature using AWS Cognito and integrated additional APIs collaborating with backend engineers.
           `,
           color: "#0071C5",
         },
         {
-          title: "Frontend Engineer",
-          company: "Tidio",
-          company_url: "https://tidio.com/",
-          logo_path: "tidio.png",
-          duration: "2019.05 - 2020.11",
-          location: "Remote",
+          title: "Full Stack Developer",
+          company: "Mobcoder",
+          company_url: "https://mobcoder.com/",
+          logo_path: "financeit.jfif",
+          duration: "JUL 2016 – MAR 2019",
+          location: "Seattle, WA",
           description: `
-          -	Optimized and improved the code quality by owning the rewriting of the application from an MVC view- based approach to a SPA and upgraded to React 16.8, rewriting all class-based components to functional components with hooks, implemented the Context API for global storage and authored over 330 individual tests across 110 test suites to react 80% code coverage. Since I wrote the client app 2 years prior, it gave me the opportunity to catch all my oversights and apply newfound knowledge. 
-          -	Enforced Agile and Scrum development methodologies on interface projects to shorten development times.
-          -	Coordinated with project management staff on database development timelines and project scope.
-          -	Collaborated with stakeholders during development processes to confirm creative proposals and design best practices.
+          [Python, Django, LAMP, Laravel, React, React Native, React testing library, Cypress, Next.js, Gatsby, MUI, Node, Express, Nest.js, D3.js, PostgreSQL, TypeORM]
+          • Upgraded Laravel full stack codebase to Django / React application, attracted 1M+ users.
+          • Architected a new strategy for web scraping that diversified the server workload, reducing server costs by up to 75% and increasing runtime efficiency by as much as 50% per scraper.
+          • Collaborated with frontend developers to design and develop API endpoints, ensuring effective communication and data exchange between frontend and backend components.
+          • Collaborated with the UX/UI design teams to improve the website and applications, increasing conversion rates by 25% using SASS/SCSS and Bootstrap.
+          • Wrote business domain logic and optimized SQL queries to enhance system performance by 15%.
+          • Covered 90% of automation testing by writing and e2e tests with React testing library, Jest and Cypress.
+          • Participated in building the new public version of a dental company using CMS, manipulated data and achieved user engaging experience by 30%.
           `,
           color: "#0071C5",
         },
         {
-          title: "Software Engineer",
-          company: "Matellio",
-          company_url: "https://www.matellio.com/",
-          logo_path: "matellio.png",
-          duration: "2017.08 - 2019.05",
-          location: "Onsite",
+          title: "Frontend Developer",
+          company: "Iflexion",
+          company_url: "https://www.iflexion.com/",
+          logo_path: "financeit.jfif",
+          duration: "MAY 2013 – JUN 2016",
+          location: "Denver, CO",
           description: `
-          -	Designed REST calls using React to streamline user interface performance.
-          -	Collaborated with project managers to select ambitious, but realistic coding milestones on pre-release software project development.
-          -	Developed and implemented performance improvement strategies and plans to promote continuous improvement.
+          [HTML5, JavaScript, CSS3, jQuery, Bootstrap, React, Vue, AngularJS, PHP, Laravel, Redux, MySQL]
+          • Maintained and refactored responsive ecommerce SCSS platform using JavaScript, React, Redux, HTML5 and Scss, raised conversation rate from 25-30% based on 10,000+ visits per month.
+          • Revamped UI and app interface for company’s site with 200,000+ unique visitors per month.
+          • Collaborated with UI/UX design teams to improve the website and applications, increasing conversation rates by 20%.
+          • Transformed over 3+ businesses and agencies’ main pages with React and Vue.
+          • Generated a web app MVP for a store delivery management platform with 100+ business customers to create, manage and monitor deliveries using React and Redux.
+          • Established user-friendly optimized check-out page, resulting in 20% increase in user clicks and 30% in customer purchases using React.
+          • Fixed bugs from existing websites and released enhancements that significantly achieved web functionality and made speed faster by 20% using React.
           `,
           color: "#0071C5",
-        },
-        {
-          title: "Software Engineer",
-          company: "Trantor.Inc",
-          company_url: "https://www.trantorinc.com/",
-          logo_path: "trantor.jpg",
-          duration: "2014.11 - 2017.08",
-          location: "Onsite",
-          description: `
-          -	Maintained high-level expertise in React state management strategies.
-          -	Participated in cross-functional projects while working in lean development environments.
-          -	Participated in software field testing to verify in-situ performance of developed projects.
-          `,
-          color: "#0071C5",
-        },
-      ],
-    },
-    {
-      title: "Volunteerships/Participation",
-      experiences: [
-        {
-          title: "Cross Winter of Code Mentor",
-          company: "CWOC",
-          company_url: "https://crosswoc.ieeedtu.in/",
-          logo_path: "cwoc.png",
-          duration: "Feb 2021 - Present",
-          location: "Work From Home",
-          description:
-            "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
-          color: "#D83B01",
-        },
-        {
-          title: "GitHub Student Developer",
-          company: "GitHub",
-          company_url: "https://github.com/",
-          logo_path: "github.png",
-          duration: "Nov 2019 - Present",
-          location: "Work from Home",
-          description:
-            "Contribute to Open Source Community and Open Source Project.",
-          color: "#D83B01",
-        },
-        {
-          title: "Google Local Guide",
-          company: "Google Map",
-          company_url: "https://maps.google.com/localguides/",
-          logo_path: "localguide.png",
-          duration: "Sep 2018 - Present",
-          location: "Work From Home",
-          description:
-            "Day-to-day responsibilities of helping local businesses to spread their business to the world. Helping users by writing reviews about different locations and spaces such as shops, malls, etc.",
-          color: "#D83B01",
-        },
-        {
-          title: "GDG Student Volunteer",
-          company: "Google Developer Groups",
-          company_url: "https://gdg.community.dev/",
-          logo_path: "gdg.png",
-          duration: "Feb 2021 - Present",
-          location: "Work From Home",
-          description: "Google Developer Group Student Volunteer and Member.",
-          color: "#D83B01",
         },
       ],
     },
@@ -564,11 +500,11 @@ const projects = {
   data: [
     {
       id: "0",
-      name: "Create",
-      url: "https://app.create.xyz",
-      logo_path: "create.png",
+      name: "ResultID",
+      url: "https://www.resultid.ai/",
+      logo_path: "resultid.png",
       description:
-        "AI powered app creattion platform, It can save 60+ days on Day 1!",
+        "Resultid discovers and preserves connections in text data that forward thinking companies rely on to improve operations and anticipate trends.",
       languages: [
         {
           name: "React",
@@ -579,82 +515,91 @@ const projects = {
           iconifyClass: "logos-typescript",
         },
         {
-          name: "Next.js",
+          name: "GPT3 / GPT4",
         },
         {
-          name: "Langchain",
-        },
-        {
-          name: "LLM",
+          name: "NLP",
         },
         {
           name: "GraphQL",
         },
-      ],
-    },
-    {
-      id: "0",
-      name: "ArtHeart",
-      url: "https://artheart.ai",
-      logo_path: "artheart.png",
-      description:
-        "AI powered character generation platform, you can even chat with him/her",
-      languages: [
+
         {
-          name: "Svelte",
-        },
-        {
-          name: "TypeScript",
-        },
-        {
-          name: "Flutter",
-        },
-        {
-          name: "Django",
-        },
-        {
-          name: "Hugging Face",
-        },
-        {
-          name: "Stable Diffusion",
+          name: "Python",
         },
       ],
     },
     {
       id: "0",
-      name: "MapLibre",
-      url: "https://maplibre.org",
-      logo_path: "maplibre.png",
+      name: "Strainbrain",
+      url: "https://www.strainbra.in/",
+      logo_path: "strainbrain.png",
       description:
-        "Open-source mapping libraries for web and mobile app developers.",
+        "Strainbrain is your AI Budtender. Add our cannabis product recommendation tool to your website and in-store kiosks to streamline your operations.",
       languages: [
         {
           name: "React",
         },
         {
+          name: "JavaScript",
+        },
+        {
           name: "TypeScript",
         },
         {
-          name: "Golang",
+          name: "Node / Nest.js",
         },
         {
-          name: "Rust",
+          name: "GraphQL",
         },
         {
-          name: "WebGL",
+          name: "Storybook",
         },
         {
-          name: "Javascript",
+          name: "TailwindCSS",
         },
       ],
     },
     {
       id: "0",
-      name: "MarbleDAO",
-      url: "https://app.marbledao.finance",
-      logo_path: "marble.png",
+      name: "VisitorsCoverage",
+      url: "https://www.visitorscoverage.com/",
+      logo_path: "visitorscoverage.png",
       description:
-        "MarbleDAO is the first community-driven DAO on Juno. It supports staking&bonding tokens, NFT marketplace",
+        "Insurance for the way you travel™. Buy travel insurance in less than 5 minutes",
+      languages: [
+        {
+          name: "Vue",
+        },
+        {
+          name: "Nuxt",
+        },
+        {
+          name: "TypeScript",
+        },
+        {
+          name: "PHP",
+        },
+        {
+          name: "CI",
+        },
+        {
+          name: "RESTful API",
+        },
+        {
+          name: "Javascript",
+        },
+        {
+          name: "PostgreSQL",
+        },
+      ],
+    },
+    {
+      id: "0",
+      name: "Zlyde",
+      url: "https://www.zlyde.com/",
+      logo_path: "zlyde.png",
+      description: "Innovative solutions for digital Sports and Entertainment",
       languages: [
         {
           name: "React",
@@ -668,13 +613,10 @@ const projects = {
           name: "Next.js",
         },
         {
-          name: "Golang",
+          name: "Node",
         },
         {
-          name: "Rust",
-        },
-        {
-          name: "CosmJS",
+          name: "Nest.js",
         },
         {
           name: "Styled Component",
@@ -683,11 +625,11 @@ const projects = {
     },
     {
       id: "1",
-      name: "Shapeshift",
-      logo_path: "shapeshift.png",
-      url: "https://github.com/shapeshift/web",
+      name: "Summetix",
+      logo_path: "summetix.png",
+      url: "https://www.summetix.com/",
       description:
-        "Shapeshift is one of the world famous cryptocurrency exchange platforms",
+        "Summetix uses Argument Mining and large language models to discover hidden insights in your customers' feedback and to monitor and discover tech and innovation trends.",
       languages: [
         {
           name: "React",
@@ -700,6 +642,18 @@ const projects = {
         {
           name: "Chakra UI",
         },
+
+        {
+          name: "Python",
+        },
+
+        {
+          name: "Flask",
+        },
+
+        {
+          name: "GPT3",
+        },
         {
           name: "Cypress",
         },
@@ -710,28 +664,34 @@ const projects = {
     },
     {
       id: "2",
-      name: "Tidio Chatbot",
-      logo_path: "tidio.png",
-      url: "https://www.tidio.com/chatbots/",
-      description: "Tidio is a conversational AI platform",
+      name: "Spoken",
+      logo_path: "spoken.png",
+      url: "https://www.spoken.io/",
+      description:
+        "Stores mark up their products. Spoken find the same product elsewhere, for less.",
       languages: [
         {
           name: "React",
           iconifyClass: "logos-react",
         },
         {
-          name: "Vue3",
-          iconifyClass: "logos-vue",
-        },
-        {
           name: "JavaScript",
           iconifyClass: "logos-javascript",
         },
         {
-          name: "CircleCI",
+          name: "TypeScript",
         },
         {
           name: "GraphQL/Apollo",
+        },
+        {
+          name: "Web Scrapping",
+        },
+        {
+          name: "Node",
+        },
+        {
+          name: "Nest.js",
         },
       ],
     },

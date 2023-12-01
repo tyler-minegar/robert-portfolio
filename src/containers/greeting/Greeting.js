@@ -63,15 +63,6 @@ export default function Greeting(props) {
               </div>
             </div>
           </div>
-          <div className="greeting-image-div">
-            <img
-              className="profile-pic"
-              style={{ width: "100%" }}
-              src={require(`../../assests/images/me.png`)}
-              alt=""
-            />
-            {/* <FeelingProud theme={theme} /> */}
-          </div>
         </div>
       </div>
     </Fade>

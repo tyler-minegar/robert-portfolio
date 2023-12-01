@@ -6,15 +6,6 @@ export default function socialMedia() {
   return (
     <div className="social-media-div">
       <a
-        href={socialMediaLinks.github}
-        className="icon-button github"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i className="fab fa-github"></i>
-        <span></span>
-      </a>
-      <a
         href={socialMediaLinks.linkedin}
         className="icon-button linkedin"
         target="_blank"
@@ -29,7 +20,7 @@ export default function socialMedia() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i className="fab fa-google"></i>
+        <i className="fa fa-inbox"></i>
         <span></span>
       </a>
       <a

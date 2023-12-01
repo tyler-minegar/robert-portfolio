@@ -37,7 +37,7 @@ function Education(props) {
           </div>
         </Fade>
         <Educations theme={props.theme} />
-        <Certifications theme={props.theme} />
+        {/* <Certifications theme={props.theme} /> */}
       </div>
       <Navigation
         theme={props.theme}
